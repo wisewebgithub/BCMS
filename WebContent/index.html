@@ -9,6 +9,15 @@
 
 <link  href="./resources/design.css" type="text/css" rel="stylesheet"/>
 <title>Insert title here</title>
+    
+    <script>
+    
+        function disp(){
+            document.getElementById('button').style.display="none";
+            document.getElementById('words').style.display="block";        
+                     
+        }
+    </script>
 </head>
 <body>
 <div class="container">
@@ -55,6 +64,38 @@
         </figure>
         
     </div>
+    
+    <button id='button' type="button" onclick="disp()" style='width:100%;background-color:lightcoral;font-weight: 600;height:30px;'>Click me for DENOMINATION CHART</button>
+    <div  id="words">
+    
+        <table>
+            
+        <tr><th colspan=5> <h2 style='border:0px solid red;display:inline-block;margin:0px;padding: 0px;'>DENOMINATION CHART</h2></th></tr>
+        <tr><th colspan=5><br></th></tr>
+            <tr>
+            <th>Denomination</th><th>Level-I</th><th>Level-II</th><th>Level-III</th><th>Level-IV</th>                
+            </tr>
+            <tr>
+                <td>10</td><td>1200</td><td>3500</td><td>4000</td><td>2500</td>
+            </tr>
+            
+            <tr>
+                <td>20</td><td>1500</td><td>4000</td><td>2000</td><td>1200</td>
+            </tr>
+       
+            <tr>
+                <td>50</td><td>1800</td><td>4200</td><td>4200</td><td>1400</td>
+            </tr>       
+            
+            <tr>
+                <td>100</td><td>2500</td><td>3500</td><td>4000</td><td>3500</td>
+            </tr>
+        
+        </table>
+        
+    
+    </div>    
+    
 </div>
     
     <div class="footer">
