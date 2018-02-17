@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 800px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #00FFFF;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 500px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+   
+  <table>
+   <h1>Company Registration</h1>
+<tr>
+<td>CompanyID&nbsp;</td>
+<td><input type="" name="cid"  ><br><br></td><br>
+</tr>
+<tr>
+<td>Name : </td>
+<td><input type="text" name="user" ><br><br></td><br>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="pass" ><br><br></td><br>
+</tr>
+<tr>
+<td>Established&nbsp;&nbsp;&nbsp;</td>
+<td><input type="date" name="established"><br><br></td><br>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="address"><br><br></td><br>
+</tr>
+<tr>
+<td>City</td>
+<td><input type="text" name="city"><br><br></td><br>
+</tr>
+<tr>
+<td>Country</td>
+<td><input type="text" name="country"><br><br></td><br>
+</tr>
+<tr>
+<td>Pincode</td>
+<td><input type="text" name="pin"><br><br></td><br>
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="email"><br><br></td><br>
+</tr>
+<tr>
+<td>ContactNo</td>
+<td><input type="number" name="contact"><br><br></td><br>
+</tr>
+<tr>
+<td>RegnDate</td>
+<td><input type="date" name="rdate"><br><br></td><br>
+</tr>
+
+</table>
+		
+	<input type="submit" value="Register">&nbsp
+		<input type="reset" value="Reset">	
+		
+		
+	</form>
+     
+    </div>
+
+    <div class="col-sm-9">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/c1.jpeg" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="images/c2.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="images/c3.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
