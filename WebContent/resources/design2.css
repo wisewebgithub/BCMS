@@ -1,0 +1,123 @@
+
+body{
+    background-color:deepskyblue;
+}
+.container{
+    border:0px solid yellow;
+    width:94%;
+    height: auto;
+    margin-left: 3%;
+    margin-top:-7px;
+}
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    border:2px solid yellow;
+    height: 150px;
+    background-image: url('../images/pass4.jpg');
+    background-position: right;
+    background-repeat:repeat-y;
+    background-color:white;
+    /*background-color:navajowhite;*/
+    border-radius: 1%;
+    overflow: hidden;    
+}
+
+.header > .fig2{
+    float:left;
+    border:0px solid blue;
+    margin-left: -20px;
+}
+.header > .fig1{
+    margin-left: -40px;
+    float: left;
+}
+
+
+.header > .top_menu{
+	margin:0px;
+	padding:0px;
+    border:1px solid lemoncliff;
+    
+    float:right;
+    background-color:lightgoldenrodyellow;
+    background-color:whitesmoke;
+    background-color:navajowhite;
+    border-radius: 10%;
+	}
+
+
+.top_menu > ul{    
+	margin:0px;
+	padding:0px;
+	width:auto;
+    border: 0px solid lightyellow;
+    border-radius: 10%;
+    }
+
+.top_menu > ul > li{
+	margin:0px;
+	padding:0px;
+	display:inline;
+    padding-left: 10px;    
+}
+
+
+.top_menu > ul > li > a{
+	margin:0px;
+	padding:0px;
+	font-family: cursive;
+    font-size: 14px;    
+    /*color:mediumblue;*/
+    color:deepskyblue;
+    color:red;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    }
+
+.top_menu > ul > li > a:hover{
+    font-size:18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.main{
+    margin:0px;
+    padding: 0px;
+    background-color: floralwhite;
+    border-radius: 1%;
+    border: 5px solid white;
+}
+
+#words{
+    border:1px solid lemon;
+    border-bottom: 2px solid black;
+    background-color:aliceblue;
+    border-radius: 1%;
+    display: none;
+    overflow: hidden;
+}
+
+.footer{
+    clear:both;
+    margin:0px;
+    padding: 0px;
+    height: 150px;
+    background-color: red;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.footer > span{
+    
+    border: 1px solid red;
+    display: inline-block;
+    color: white;
+    display: inline-block;
+    /* float:left;  remove */
+    margin: 50px 10px 0 0;
+    padding: 5px 10px;
+}
