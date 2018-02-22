@@ -2,20 +2,29 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<meta name="author" content="kirankumar@talentsprint.com">
+<meta name="author" content="kiran.kumar@talentsprint.com">
 <meta name="description" content="WiseWebApplication">
 <meta name="keywords" content="coupon,corporate,pass,management,bonus,employee,manage,working,system">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 <link  href="./resources/design.css" type="text/css" rel="stylesheet"/>
-<title>Insert title here</title>
+<title>BCMS</title>
     
     <script>
     
         function disp(){
             document.getElementById('button').style.display="none";
-            document.getElementById('words').style.display="block";        
+            document.getElementById('words').style.display="block";
+            
+            document.getElementById('button2').style.display="block";
                      
+        }
+        
+          function disp2(){
+                    document.getElementById('words').style.display="none";        
+              document.getElementById('button').style.display="block";
+              document.getElementById('button2').style.display="none";
+            
         }
     </script>
 </head>
@@ -23,11 +32,11 @@
 <div class="container">
 <div class="line">
 </div>
-    <figure><img src="images/logo3.svg" style='border-bottom:0px solid black;'>
+ <figure><img src="images/logo3.svg" style='border-bottom:0px solid black;'>
     </figure>
     <figure style="float: right;padding-top:20px;"><img src="images/logo.png" /></figure>
     
-    <h1>Bonus Coupon Management System</h1>
+    <h1>Bonus Coupon Monitoring System</h1>
 <nav class="top_menu">
 <ul>
 <li><a href="#">Home</a></li>
@@ -93,8 +102,9 @@
         
         </table>
         
-    
-    </div>    
+        </div>    
+    <button id="button2" type="button" onclick="disp2()" style='display: none; width:100%;background-color:lightcoral;font-weight: 600;height:30px;'>Close</button>
+   
     
 </div>
     
@@ -103,9 +113,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;developed by TalentSprint &trade; Wise Team</p>
     </div>
             <div class="line">
-</div>
-
-    
+</div>    
 </div>
 </body>
 </html>

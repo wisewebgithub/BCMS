@@ -4,24 +4,25 @@
 text-color:black;	
 }
 
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+* {
+   font-family: myFirstFont;
+}
 .container{
     padding: 0px;
     margin-top:-8px;
 	width:100%;
-	border: 0px solid burlywood;
-    background-color:aliceblue;
-    
+	border: 5px solid yellow;
+    /*background-color:aliceblue;*/
     overflow: hidden;
 }
 
-.container> figure > img{
-    margin-top:0px;
-    margin-left:0px;
-    float:left;
-    border:0px solid black;
-    
-}
-.container>h1{
+/*.container>h1{
     font-stretch: normal;
     font-family: cursive;
     font-size:28px;
@@ -29,21 +30,38 @@ text-color:black;
     margin-left: 10px;
     text-shadow: 5px 1px 2px pink;
     border-bottom: 1px solid black;
+    
+}
+*/
+.header{
+	border:2px solid red;
+	background-color:mediumslateblue;
+	overflow:hidden;
+	}
+
+
+.header > figure{
+    margin-top:0px;
+    margin-left:0px;
+    float:left;
+    border:5px solid black;
+    
 }
 
 
-.top_menu{
+.header > .top_menu{
 	margin:0px;
 	padding:0px;
-    clear:right;
-    float:right;
-}
+    float:left;
+	}
+
+
 .top_menu > ul{
     
 	margin:0px;
 	padding:0px;
 	width:auto;
-    border: 1px solid lightyellow;
+    border: 0px solid lightyellow;
     border-radius: 10%;
     }
 
@@ -59,18 +77,16 @@ text-color:black;
 	margin:0px;
 	padding:0px;
 	font-family: cursive;
-    font-size: 15px;    
-    color:black;
+    font-size: 16px;    
+    color:white;
     text-decoration: none;
     text-transform: uppercase;
     
     }
 
 .top_menu > ul > li > a:hover{
-    font-size:15px;
+    font-size:18px;
     font-weight: bold;
-    background-color:burlywood;
-    border-radius: 10%;
     text-decoration: underline;
 }
 
@@ -82,30 +98,94 @@ background-color: ;
 
 .main{
     clear: both;
-    margin-top:12%;
     border:0px solid black;
-    background-color: mediumslateblue;
-    
+    background-color:mediumslateblue;    
     overflow: hidden;    
 }
 
+.main > .main_pic{
+	float:right;
+	width:100%;
+	border:0px solid red;
+	background-color:white;
+}
+
+.main> .main_pic > p{
+	margin:0px;
+	padding:0px;
+	width:49.2%;
+	clear:left;
+	float:left;
+	padding:2px;
+	border:0px solid blue;
+	border-right:1px solid yellow;
+	background-color:lightblue;
+	font-size:18px;
+	word-spacing:14px;
+	border-style:dashed;	
+}
+
+.main> .main_pic > marquee{
+	
+	width:50%;
+	float:right;
+	border:0px solid red;	
+}
+
+
 .main > .moving{
-    margin-left: 10%;
-    border:0px solid red;
-    width:auto;
+    margin-left:10%;
+    margin-right:10%;
+    border:1px solid red;
+    width:50%;
     display: inline-block;
     }
 
 .main > .moving > figure{
 border: 0px solid black;
-padding: 10px;
-    
+padding:5px;   
 }
 
 .main > .moving > figure > figcaption{
 
     text-align: center;
 }
+
+#words{
+    margin-left:13%;
+    border:1px solid lemon;
+    border-bottom: 2px solid black;
+    width:1050px;
+    display: inline-block;    
+    background-color:aliceblue;
+    border-radius: 2%;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+table{
+    padding: 4%;
+    width: 1050px;
+    
+}
+th, td {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   border: 1px solid black;
+ text-align: center;    
+     
+}
+th{
+    border-radius: 5px;
+    background-color:moccasin;
+}
+td{
+    background-color:lightblue;
+}
+
+
+
 .footer{
 	border:0px solid green;
 	padding:10px;
