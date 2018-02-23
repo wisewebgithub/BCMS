@@ -56,15 +56,15 @@
     
     <div style='background-color:palegreen;border:0px solid red;padding: 0px;width: 890px;height: 600px;float:left;'>
     
-        <p align='center' style='font-family: cursive;font-size:20px;color: red;'><u>Admin Login</u></p>
+        <p align='center' style='font-family: cursive;font-size:20px;color: red;'><u>Comapany Login</u></p>
         <table border=0 width=300 height=180 bgcolor='white' align='center' style='margin-top:0%;color:white;border:5px dashed red;font-family: cursive;'>
 
 <tr><td><form action="check.jsp" onsubmit="return validate(this);">
 <tr><td><br></td></tr>
-<tr align=center ><td colspan=2 ><input style='font-family: cursive;border-radius: 10%;' type="text" name="uname" placeholder='UserId' required='required'/></td></tr>
+<tr align=center ><td colspan=2 ><input style='font-family: cursive;border-radius: 10%;' type="text" name="uname" placeholder='CompanyId' required='required'/></td></tr>
 <tr><td><br></td></tr>
 <tr align=center><td colspan=2><input  style='font-family: cursive;border-radius: 10%;' type="password" name="upass" placeholder='Password' required='required'/></td></tr>
-    <tr align=center><td colspan=2><input  style='font-family: cursive;border-radius: 10%;' type="hidden" name="utype" placeholder='Password' required='required' value='admin'/></td></tr>
+    <tr align=center><td colspan=2><input  style='font-family: cursive;border-radius: 10%;' type="hidden" name="utype" placeholder='Password' required='required' value='mnc'/></td></tr>
 
 <tr><td><br></td></tr>
 <tr><td colspan=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Login"/>&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset"/></td></tr>

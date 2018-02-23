@@ -45,8 +45,8 @@
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="adminLogin.jsp">Admin</a></li>
-<li><a href="#">Corporate</a></li>
-<li><a href="#">Customer</a></li>
+<li><a href="corpLogin.jsp">Corporate</a></li>
+<li><a href="custLogin.jsp">Customer</a></li>
 <li><a href="#">Contact</a></li>
 </ul>
 </nav>
